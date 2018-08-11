@@ -37,8 +37,8 @@ module.exports = {
         filename: 'static/js/bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
-    devServer: {
-        contentBase: path.resolve(__dirname, 'dist'),
+    serve: {
+        content: path.resolve(__dirname, 'dist'),
         port: 3000
     },
     plugins: [
